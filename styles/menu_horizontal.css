@@ -1,0 +1,35 @@
+/* MENU horizontal */
+
+body >  header > nav {					/* Pour le menu de navigation principal : */
+    width: 100%;                                                        /* Largeur à 100% du document html */
+    text-align: center;                                                 /* Centre le contenu  */
+}
+
+body >  header > nav ul {				/* Pour la liste contenu les liens du menu : */
+    width: 80%;								/* Fixe la largeur à 80% */
+    margin: auto;							/* Marges automatique pour centrer l'élement */
+    padding: 0px;							/* Pas de padding */ 	
+}
+
+body >  header > nav li {				/* Pour les éléments du menu de navigation :*/
+    display: inline-block;                                              /* Les afficher en ligne */
+    width: 15%;	 							/* Fixe la largeur de chaque élément à 19% */
+    text-align: center;                                                 /* Centre le contenu de chaque élément */
+    padding: 5px;							/* Ajoute un espacement de 5px */
+}
+
+body >  header > nav li a:hover{			/* Quand la souris est au dessus d'un élément de navigation du menu : */
+    color:blue	;							/* Modifie la couleur du texte */
+    text-decoration: underline; 
+}
+
+body >  header > nav li a {				/* Pour les liens du menu de navigation :*/
+    font-variant: small-caps;                                           /* On affiche le texte en petite majuscule */
+    color: inherit;							/* La couleur est héritée de l'élement parent (li) */
+    display: inline-block;                                              /* Affiche les liens sous formes de bloques en ligne */
+    width: 100%;							/* Le lien prend toute la largeur de l'élement qui le contient (li) */
+    text-decoration: none;
+}
+
+
+

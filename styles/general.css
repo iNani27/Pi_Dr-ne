@@ -1,0 +1,60 @@
+/* Styles généraux */ 
+
+body{
+    width: 60%;
+    margin: auto auto;
+    border-left: 2px solid grey;
+    border-right: 1px dotted lightblue;
+    border-bottom: 1px dotted lightblue;
+    border-radius: 0 0 7em 0;
+}
+
+body > header {
+    text-align:center;
+    min-height: 9em;
+    border-bottom: 1px solid lightgrey;
+}
+
+body > header > a img{
+    display: block;
+    border: 1px solid lightblue;
+    width: 4em;
+    margin: auto;
+}
+
+body > footer{
+    border-top: 1px solid lightgrey;
+    padding: 50px;
+    text-align:center;
+    font-size:12px;
+}
+
+section {
+    margin:.3em .15em .3em .3em;
+    padding:.7em;
+}
+
+article{
+    padding: 1.3em;
+    width: 70%;
+    margin: auto auto;
+}
+
+article header{
+    border-bottom: 1px dotted lightgrey;
+}
+article p{
+    margin: 1em;
+    text-align: justify;
+}
+article p img, img{
+    width: 100%; 
+}
+
+
+
+
+
+
+
+

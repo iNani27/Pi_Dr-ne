@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8"> 
+        <title>INani - WEB - Contact</title>
+        <meta name="description" content="Description de la page">
+        <meta name="keywords" content="web, html5, css3, media queries, form">
+        <meta name="author" content="INani">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/menu_horizontal.css">
+        <link rel="stylesheet" href="styles/general.css">
+        <!-- <link rel="stylesheet" href="styles/galerie_fluide.css">-->
+        <link rel="stylesheet" href="styles/form.css">
+        <link rel="stylesheet" href="styles/form-bgimg.css">
+        <link rel="stylesheet" href="styles/responsive.css">
+
+    </head>
+    <body>
+        <header>
+            <h1>Nom du site</h1>
+            <a href="index.html" title="Accueil"><img src="images/logo.png" alt="Logo du site" /></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html" title="Accueil">Accueil</a></li>
+                    <li><a href="articles.html" title="Articles">Articles</a></li>
+                    <li><a href="timeline.html" title="Timeline">Timeline</a></li>
+                    <li><a href="drone.html" title="Drône">Drône</a></li>
+                    <li><a href="contact.html" title="Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+
+            <h2>Formulaire de contact</h2>
+            <div class="bg-img">			
+                <form action="" method="POST" name="contact">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="fname">Prénom</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="fname" name="firstname" placeholder="Votre prénom ...">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="lname">Nom</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="lname" name="lastname" placeholder="Votre nom ...">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="country">Pays</label>
+                            </div>
+                            <div class="col-75">
+                                <select id="country" name="country">
+                                    <option value="Belgique">Belgique</option>
+                                    <option value="canada">Canada</option>
+                                    <option value="usa">USA</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="subject">Objet</label>
+                            </div>
+                            <div class="col-75">
+                                <textarea id="subject" name="subject" placeholder="Votre message ..." style="height:70px"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <input type="submit" value="Envoyer">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>Créé par les formateurs de l'a.s.b.l. <a href="http://www.fobagra.net/" title="FOBAGRA est une a.s.b.l. qui lutte contre la fracture numérique en mettant l'ére numérique à portée de tous" target="_blank">FOBAGRA</a>&nbsp;&copy2018</p>
+            <p><em>
+                    Special thanks to <a href="https://www.tonicaptain.com/" title="TONI CAPTAIN &#8211; World citizen | DATA CLOTHING INC." target="_blank">TONI CAPTAIN</a> whose ideas have largely inspired this site !
+                </em>
+            </p>
+        </footer>
+    </body>
+</html>
