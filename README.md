@@ -5,5 +5,7 @@ Construit avec le framwork W3.CSS de https://www.w3schools.com/w3css/
 
 Cadre : formation des formateurs de l'asbl FOBAGRA - été 2018   
 
-Objectif : Créer un site web contenant une page web pilotant un drône raspberry pi
+Objectif : Créer un site web contenant une page web pilotant un drône Raspberry Pi
+
+Pour en savoir plus sur la programmation du robot Raspberry Pi suivre Reyoth : https://github.com/Reyoth?tab=repositories
 
