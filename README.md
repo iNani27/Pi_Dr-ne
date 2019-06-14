@@ -1,5 +1,5 @@
 # Pi_Dr-ne
-Un site web en HTML5 et CSS3 
+Un site web en HTML5 et CSS3 : Voir sur https://inani27.github.io/Pi_Dr-ne/
 
 Construit avec le framwork W3.CSS de https://www.w3schools.com/w3css/   
 
